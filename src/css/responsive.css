@@ -1,0 +1,42 @@
+@media (max-width: 1280px){
+    body {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .conteudo {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conteudo .logo {
+        font-size: 35px;
+    }
+
+    .conteudo .informacoes {
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(128, 128, 128, 0.295);
+    }
+
+    .menu-lateral {
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        height: 10vh;
+    }
+}
+
+@media (max-width: 428px) {
+    .conteudo .logo {
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .conteudo .informacoes {
+        font-size: 25px;
+    }
+}
